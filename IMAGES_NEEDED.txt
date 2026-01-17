@@ -1,0 +1,72 @@
+EVENT IMAGES NEEDED FOR LITERATI 2026 WEBSITE
+==============================================
+
+Please add the following PNG images to the public/events/ folder:
+
+1. book-fair.png
+   - Image showing book stalls, literary collections, or people browsing books
+
+2. panel-discussions.png
+   - Image of panel discussion setup, speakers on stage, or audience engagement
+
+3. keynote-sessions.png
+   - Image of keynote speaker presenting, or professional conference setting
+
+4. workshops.png
+   - Image of workshop participants, hands-on activities, or learning sessions
+
+5. theatre-performance.png
+   - Image of theatrical performance, stage setup, or actors performing
+
+6. quizzes.png
+   - Image of quiz competition, participants answering, or quiz setup
+
+7. creative-writing.png
+   - Image of writing competition, poets performing, or spoken word event
+
+8. art-competitions.png
+   - Image of art exhibition, artists creating, or art displays
+
+
+GALLERY IMAGES NEEDED FOR PAST EDITIONS
+========================================
+
+Please add the following PNG images to the public/gallery/ folder:
+
+LITERATI 2025 (6 images):
+1. 2025-1.png - Opening ceremony or crowd shots
+2. 2025-2.png - Event activity or performance
+3. 2025-3.png - Author interaction or panel discussion
+4. 2025-4.png - Cultural performance or theater
+5. 2025-5.png - Book fair or workshop
+6. 2025-6.png - Closing ceremony or highlights
+
+LITERATI 2024 (6 images):
+1. 2024-1.png - Opening ceremony or crowd shots
+2. 2024-2.png - Event activity or performance
+3. 2024-3.png - Author interaction or panel discussion
+4. 2024-4.png - Cultural performance or theater
+5. 2024-5.png - Book fair or workshop
+6. 2024-6.png - Closing ceremony or highlights
+
+
+FOLDER STRUCTURE:
+-----------------
+Create folders: 
+- public/events/
+- public/gallery/
+
+Add images to respective folders
+
+
+RECOMMENDED IMAGE SPECIFICATIONS:
+---------------------------------
+- Format: PNG
+- Aspect Ratio: 4:3 (landscape)
+- Minimum Resolution: 800x600px
+- Recommended: 1200x900px or higher
+- File size: Under 500KB per image (optimize for web)
+
+FALLBACK:
+---------
+If images are not available, placeholder icons will be displayed automatically.
