@@ -1,5 +1,5 @@
 # Vite React TypeScript Starter
-
+ 
 A modern web application built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Prerequisites
