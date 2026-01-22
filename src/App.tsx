@@ -16,8 +16,14 @@ function App() {
 
   return (
     (() => {
-      if (typeof window !== 'undefined' && window.location.pathname.startsWith('/sponsors')) {
-        return <Sponsors />;
+      if (typeof window !== 'undefined') {
+        const path = window.location.pathname || '/';
+        const hash = window.location.hash || '';
+
+        // support both direct pathname (/sponsors) and hash route (/#/sponsors)
+        if (path.startsWith('/sponsors') || hash.startsWith('#/sponsors')) {
+          return <Sponsors />;
+        }
       }
 
       return (
