@@ -87,7 +87,7 @@ export default function Footer() {
               © 2026 BSP IIT Delhi. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm items-center">
-              <a href="/sponsors/" className="text-gray-500 hover:text-[#c41e3a] transition-colors">Sponsors</a>
+              <a href="/#/sponsors" className="text-gray-500 hover:text-[#c41e3a] transition-colors">Sponsors</a>
             </div>
           </div>
         </div>
