@@ -1,4 +1,4 @@
-import { Mail, MapPin, Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -6,10 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-2xl font-bold font-serif text-[#c41e3a] mb-4">LITERATI</h3>
-            <p className="text-stone-600 mb-4 leading-relaxed">
-              IIT Delhi's annual literature and arts festival celebrating the threads that connect mythology to modern storytelling.
-            </p>
+            <h3 className="text-2xl font-bold font-serif text-[#c41e3a] mb-1">LITERATI 26</h3>
+            <p className="text-[#6b2a4a] font-mystic text-lg mb-2">Threads of mythology</p>
+            <p className="text-stone-600 mb-4 leading-relaxed">IIT Delhi's annual literature and arts festival</p>
             <p className="text-sm text-stone-500">Organized by BSP IIT Delhi</p>
           </div>
 
@@ -32,8 +31,8 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-[#c41e3a] flex-shrink-0 mt-1" />
                 <div>
-                  <p className="text-stone-600">literati@iitd.ac.in</p>
-                  <p className="text-stone-600">bsp@iitd.ac.in</p>
+                  <p className="text-stone-600">iitdelhi.literati@gmail.com</p>
+                  <p className="text-stone-600">iitdelhi.bsp@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -58,24 +57,12 @@ export default function Footer() {
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/Literati.IITD/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:bg-[#c41e3a] hover:text-white transition-all duration-300 hover:scale-110"
               >
                 <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:bg-[#c41e3a] hover:text-white transition-all duration-300 hover:scale-110"
-              >
-                <Twitter size={20} />
-              </a>
-              <a
-                href="https://in.linkedin.com/company/board-for-student-publications"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white border border-stone-200 rounded-lg flex items-center justify-center text-stone-500 hover:bg-[#c41e3a] hover:text-white transition-all duration-300 hover:scale-110"
-              >
-                <Linkedin size={20} />
               </a>
             </div>
             <div className="mt-6">
@@ -97,12 +84,10 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm">
-              © 2026 Literati, IIT Delhi. All rights reserved.
+              © 2026 BSP IIT Delhi. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm">
-              <a href="#" className="text-gray-500 hover:text-[#c41e3a] transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-500 hover:text-[#c41e3a] transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-500 hover:text-[#c41e3a] transition-colors">Sponsors</a>
+            <div className="flex gap-6 text-sm items-center">
+              <a href="/sponsors/" className="text-gray-500 hover:text-[#c41e3a] transition-colors">Sponsors</a>
             </div>
           </div>
         </div>
